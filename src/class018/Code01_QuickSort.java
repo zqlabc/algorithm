@@ -116,7 +116,7 @@ public class Code01_QuickSort {
         first=l;
         last=r;
         int i=l;
-        while (i<r){
+        while (i<=last){
             if(arr[i]==x){
                 i++;
             } else if (arr[i]<=x) {

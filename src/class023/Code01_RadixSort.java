@@ -92,7 +92,7 @@ public class Code01_RadixSort {
 
     // 基数排序核心代码
     // arr内要保证没有负数
-    // m是arr中最大值在BASE进制下有几位
+    // bits是arr中最大值在BASE进制下有几位
     public static void radixSort(int bits) {
         // 理解的时候可以假设BASE = 10
         for (int offset = 1; bits > 0; offset *= BASE, bits--) {
@@ -113,3 +113,4 @@ public class Code01_RadixSort {
     }
 
 }
+
